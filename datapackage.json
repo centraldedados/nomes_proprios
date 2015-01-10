@@ -1,0 +1,41 @@
+{
+  "name": "nomes-proprios",
+  "title": "Nomes próprios em Portugal",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "nomes-aceites-2014",
+      "path": "data/nomes-aceites-2014.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 86210,
+      "schema": {
+        "fields": [
+          {
+            "name": "nome",
+            "type": "string",
+            "description": "Nome"
+          },
+          {
+            "name": "aceite",
+            "type": "boolean",
+            "description": "Aceite ou não"
+          },
+          {
+            "name": "genero",
+            "type": "string",
+            "description": "Género"
+          },
+          {
+            "name": "notas",
+            "type": "string",
+            "description": "Notas e observações"
+          }
+        ]
+      }
+    }
+  ],
+  "description": ""
+}
