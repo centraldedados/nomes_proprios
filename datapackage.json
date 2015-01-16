@@ -8,9 +8,11 @@
     {
       "name": "nomes-aceites-2014",
       "path": "data/nomes-aceites-2014.csv",
+      "description": "",
+      "repository": "git://github.com/centraldedados/nomes_proprios.git",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 86210,
+      "bytes": 72902,
       "schema": {
         "fields": [
           {
@@ -21,7 +23,7 @@
           {
             "name": "aceite",
             "type": "boolean",
-            "description": "Aceite ou não"
+            "description": "Aceite?"
           },
           {
             "name": "genero",
@@ -31,11 +33,36 @@
           {
             "name": "notas",
             "type": "string",
-            "description": "Notas e observações"
+            "description": "Observações"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nomes-registados-2014",
+      "path": "data/nomes-registados-2014.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 260064,
+      "schema": {
+        "fields": [
+          {
+            "name": "nome",
+            "type": "string",
+            "description": "Nome"
+          },
+          {
+            "name": "numero",
+            "type": "number",
+            "description": "Número de ocorrências"
+          },
+          {
+            "name": "genero",
+            "type": "string",
+            "description": "Género"
           }
         ]
       }
     }
-  ],
-  "description": ""
+  ]
 }
