@@ -7,8 +7,8 @@
   "resources": [
     {
       "name": "nomes-aceites-2014",
-      "path": "data/nomes-aceites-2014.csv",
-      "description": "",
+      "path": "data/nomes-aprovados-2014.csv",
+      "description": "Nomes próprios aprovados e não aprovados",
       "repository": "git://github.com/centraldedados/nomes_proprios.git",
       "format": "csv",
       "mediatype": "text/csv",
@@ -41,6 +41,7 @@
     {
       "name": "nomes-registados-2014",
       "path": "data/nomes-registados-2014.csv",
+      "description": "Nomes próprios registados em 2014 e número de ocorrências",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 260064,
