@@ -1,6 +1,3 @@
-Nesta data package podem ser encontradas as datas de todas as sessões plenárias
-do Parlamento desde 1976 até 2014. 
-
 
 Fontes
 ------
