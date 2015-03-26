@@ -7,7 +7,7 @@
   "license": "PDDL-1.0",
   "resources": [
     {
-      "name": "nomes-aceites-2014",
+      "name": "nomes-aprovados-2014",
       "path": "data/nomes-aprovados-2014.csv",
       "description": "Nomes próprios aprovados e não aprovados",
       "repository": "git://github.com/centraldedados/nomes_proprios.git",
