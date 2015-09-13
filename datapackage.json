@@ -5,6 +5,16 @@
   "homepage": "",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "IRN",
+      "web": "http://www.irn.mj.pt/sections/irn/a_registral/registos-centrais/docs-da-nacionalidade/vocabulos-admitidos-e/"
+    },
+    {
+      "name": "Público.pt",
+      "web": "http://www.publico.pt/ficheiros/detalhe/lista-completa-dos-nomes-registados-em-2014-20150105-203813"
+    }
+  ],
   "resources": [
     {
       "name": "nomes-aprovados-2014",
