@@ -2,7 +2,7 @@
   "name": "nomes-proprios",
   "title": "Nomes próprios em Portugal",
   "description": "Listas de ocorrências de nomes próprios, e de nomes próprios aprovados ou rejeitados pelo IRN",
-  "homepage": "",
+  "homepage": "https://github.com/centraldedados/nomes_proprios",
   "version": "0.1.0",
   "license": "PDDL-1.0",
   "sources": [
