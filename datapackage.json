@@ -11,8 +11,12 @@
       "web": "http://www.irn.mj.pt/sections/irn/a_registral/registos-centrais/docs-da-nacionalidade/vocabulos-admitidos-e/"
     },
     {
-      "name": "Público.pt",
+      "name": "Público.pt (2014)",
       "web": "http://www.publico.pt/ficheiros/detalhe/lista-completa-dos-nomes-registados-em-2014-20150105-203813"
+    },
+    {
+      "name": "Público.pt (2015)",
+      "web": "https://www.publico.pt/ficheiros/detalhe/os-nomes-dos-bebes-que-nasceram-em-2015-20160104-215156"
     }
   ],
   "resources": [
@@ -55,7 +59,7 @@
       "description": "Nomes próprios registados em 2014 e número de ocorrências",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 260064,
+      "bytes": 259000,
       "schema": {
         "fields": [
           {
@@ -72,6 +76,33 @@
             "name": "genero",
             "type": "string",
             "description": "Género"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nomes-registados-2015",
+      "path": "data/nomes-registados-2015.csv",
+      "description": "Nomes próprios registados em 2015 e número de ocorrências",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 51382,
+      "schema": {
+        "fields": [
+          {
+            "name": "nome",
+            "type": "string",
+            "description": "Nome"
+          },
+          {
+            "name": "genero",
+            "type": "string",
+            "description": "Género"
+          },
+          {
+            "name": "numero",
+            "type": "number",
+            "description": "Número de ocorrências"
           }
         ]
       }
