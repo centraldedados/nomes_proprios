@@ -17,6 +17,10 @@
     {
       "name": "Público.pt (2015)",
       "web": "https://www.publico.pt/ficheiros/detalhe/os-nomes-dos-bebes-que-nasceram-em-2015-20160104-215156"
+    },
+    {
+      "name": "Diário de Notícias (2016)",
+      "web": "http://www.dn.pt//DNMultimedia/DOCS+PDFS/nomes.pdf"
     }
   ],
   "resources": [
@@ -87,6 +91,33 @@
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 51382,
+      "schema": {
+        "fields": [
+          {
+            "name": "nome",
+            "type": "string",
+            "description": "Nome"
+          },
+          {
+            "name": "genero",
+            "type": "string",
+            "description": "Género"
+          },
+          {
+            "name": "numero",
+            "type": "number",
+            "description": "Número de ocorrências"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nomes-registados-2016",
+      "path": "data/nomes-registados-2016.csv",
+      "description": "Nomes próprios registados em 2016 e número de ocorrências",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 45696,
       "schema": {
         "fields": [
           {
