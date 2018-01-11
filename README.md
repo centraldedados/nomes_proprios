@@ -10,12 +10,13 @@ A contagem das ocorrências de nomes próprios foi criada a partir dos PDFs disp
 * [Público: 2014](http://www.publico.pt/ficheiros/detalhe/lista-completa-dos-nomes-registados-em-2014-20150105-203813)
 * [Público: 2015](https://www.publico.pt/ficheiros/detalhe/os-nomes-dos-bebes-que-nasceram-em-2015-20160104-215156)
 * [Diário de Notícias: 2016](http://www.dn.pt/DNMultimedia/DOCS+PDFS/nomes.pdf)
+* [Público: 2017](https://www.publico.pt/2017/12/28/sociedade/noticia/santiago-e-lider-no-pais-das-marias-onde-a-benedita-e-a-camila-ganham-terreno-1797337)
 
 
 Limitações
 ----------
 
-Apenas são incluídos os dados de 2014 a 2016, dado não haver outros, aparentemente, disponíveis.
+Apenas são incluídos os dados de 2014 a 2017, dado não haver outros, aparentemente, disponíveis.
 
 
 Licença
