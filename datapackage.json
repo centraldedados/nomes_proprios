@@ -21,7 +21,10 @@
     {
       "name": "Diário de Notícias (2016)",
       "web": "http://www.dn.pt//DNMultimedia/DOCS+PDFS/nomes.pdf"
-    }
+    },
+    {
+      "name": "IRN (2017)",
+      "web": "http://www.irn.mj.pt/sections/irn/a_registral/registos-centrais/docs-da-nacionalidade/vocabulos-admitidos-e/downloadFile/file/Lista_de_nomes_2017_11.pdf"
   ],
   "resources": [
     {
@@ -134,6 +137,28 @@
             "name": "numero",
             "type": "number",
             "description": "Número de ocorrências"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nomes-registados-2017",
+      "path": "data/nomes-registados-2017.csv",
+      "description": "Nomes próprios registados em 2017",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 156228,
+      "schema": {
+        "fields": [
+         {
+            "name": "genero",
+            "type": "string",
+            "description": "Género"
+          },
+          {
+            "name": "nome",
+            "type": "string",
+            "description": "Nome"
           }
         ]
       }
