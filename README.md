@@ -32,4 +32,4 @@ Edição
 
 * [Ricardo Lafuente](http://twitter.com/rlaf)
 * [Marcos Marado](https://github.com/marado)
-* [Paulo Pires](https://about.me/pires)
+* Paulo Pires
